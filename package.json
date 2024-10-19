@@ -1,0 +1,15 @@
+{
+  "name": "lfw111",
+  "version": "1.0.0",
+  "description": "A Linux Foundation Course for Node.js Certification",
+  "main": "index.js",
+  "scripts": {
+  "static": "serve -p 5050 static",    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "server": "^1.0.41"
+  }
+}
