@@ -4,12 +4,15 @@
   "description": "A Linux Foundation Course for Node.js Certification",
   "main": "index.js",
   "scripts": {
-  "static": "serve -p 5050 static",    "test": "echo \"Error: no test specified\" && exit 1"
+    "static": "npx serve -p 5050 static",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "fastify": "^5.0.0",
+    "fastify-cli": "^7.0.1",
     "server": "^1.0.41"
   }
 }
